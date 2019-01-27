@@ -1,0 +1,6 @@
+- var menu = {"Google": "https://google.co.jp", "Yahoo": "https://yahoo.co.jp", "Users": "/users/"}
+
+nav
+  ul
+    each index, val in menu
+      li: a(href=index, target="_blank")= val
